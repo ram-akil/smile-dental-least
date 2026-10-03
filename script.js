@@ -1,0 +1,1 @@
+document.getElementById('appointmentForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('formMsg').textContent='Thank you! Your appointment enquiry has been received. We will contact you shortly.';this.reset();});
